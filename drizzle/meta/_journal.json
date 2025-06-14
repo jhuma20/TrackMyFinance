@@ -1,0 +1,34 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1747211038175,
+      "tag": "0000_round_lily_hollister",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1747227786840,
+      "tag": "0001_wet_ultimatum",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1749112815309,
+      "tag": "0002_neat_victor_mancha",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1749213087756,
+      "tag": "0003_productive_raider",
+      "breakpoints": true
+    }
+  ]
+}
