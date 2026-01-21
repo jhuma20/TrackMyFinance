@@ -1,36 +1,114 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧾 TrackMyFinance (Smart Finance)
 
-## Getting Started
+TrackMyFinance is a full-stack **financial management web application** that helps users track income, expenses, and budgets while visualizing financial data through interactive dashboards.
 
-First, run the development server:
+The application provides a clean, modern UI and real-time financial insights to support better money management decisions.
 
+---
+
+## 🚀 Features
+
+- 💰 Track income and expenses
+- 📊 Financial overview dashboard
+- 📈 Interactive charts (Area & Pie charts)
+- 🗂️ Category-wise expense analysis
+- 🧾 Transaction history with filters
+- ➕ Add & import transactions
+- 📅 Date-range based financial reports
+- 💻 Responsive and user-friendly UI
+
+---
+
+## 🧠 Tech Stack
+
+| Layer | Technology |
+|------|------------|
+| Frontend | Next.js, React |
+| Backend | Node.js, REST APIs |
+| Database | PostgreSQL |
+| ORM | Drizzle ORM |
+| UI | Tailwind CSS, ShadCN UI |
+| Charts | Chart.js / Recharts |
+| Version Control | Git, GitHub |
+
+---
+
+## 🏗️ Project Architecture
+
+- **Frontend** handles UI rendering and user interactions
+- **Backend APIs** manage business logic and validation
+- **PostgreSQL database** stores structured financial data
+- **REST APIs** enable communication between frontend and backend
+
+---
+
+## 📸 Screenshots
+
+### 🔹 Dashboard Overview
+Shows financial summary including remaining balance, income, expenses, and charts.
+
+![Dashboard](screenshots/dashboard.png)
+
+---
+
+### 🔹 Financial Analytics & Categories
+Displays transaction trends using area charts and category-wise expense distribution using pie charts.
+
+![Analytics](screenshots/analytics.png)
+
+---
+
+### 🔹 Transactions History
+View, filter, add, and manage all financial transactions.
+
+![Transactions](screenshots/transactions.png)
+
+---
+
+## 📁 Project Structure
+
+TrackMyFinance/
+├── app/ # Next.js application
+├── components/ # Reusable UI components
+├── db/ # Database & ORM setup
+├── features/ # Business logic modules
+├── hooks/ # Custom React hooks
+├── provider/ # Context providers
+├── public/ # Static assets
+├── screenshots/ # Project screenshots
+├── README.md
+└── package.json
+
+
+---
+
+## ⚙️ Installation & Setup
+
+### Prerequisites
+- Node.js (>=16)
+- PostgreSQL
+- npm / yarn
+
+---
+
+## 🚀 Getting Started
+
+Follow the steps below to set up the project locally.
+
+### 📥 Clone the Repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/jhuma20/TrackMyFinance.git
+cd TrackMyFinance
 ```
+### Install Dependencies
+npm install
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Run the Development Server
+npm run dev
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Contact
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+For any queries, feedback, or collaboration opportunities, feel free to reach out:
+📧 Email: jhumamahato64@example.com
+🐙 GitHub: https://github.com/jhuma20
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
